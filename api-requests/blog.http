@@ -1,0 +1,27 @@
+GET http://localhost:5000/api/posts
+###
+
+GET http://localhost:5000/api/posts/10
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+    "title": "Susbcribe to AdiOnBackend",
+    "content": "Best Backend Channel on Youtube",
+    "author": "Adi On Backend"
+}
+###
+
+PUT http://localhost:5000/api/posts/1
+Content-Type: application/json
+
+{
+    "title": "ExpressJS Course",
+    "content": "npm install express"
+}
+
+###
+
+DELETE http://localhost:5000/api/posts/6

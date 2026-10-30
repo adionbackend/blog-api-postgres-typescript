@@ -1,0 +1,27 @@
+{
+  "name": "blog-api-ts",
+  "version": "1.0.0",
+  "description": "- Run these commands",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build && node dist/index.js",
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "seed": "npm run build && node dist/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  }
+}
